@@ -1,6 +1,17 @@
+---
+title: "Multivariate Practical"
+author: "Pepijn Vink"
+date: "2022-11-16"
+output: html_document
+---
+
+# Perform Analyses
+
+```{r}
 data(cars) # load data
 
 str(cars) # look at variables and structure
 
 model <- lm(dist ~ speed, data = cars) # fit model
 summary(model) # obtain model summary
+```
